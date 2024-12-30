@@ -18,7 +18,7 @@ from aiogram.dispatcher import FSMContext
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 import asyncio
 
-api = "7292545655:AAEhNcqwcU5idv44vfbQzBJwyfeV7V1vrAQ"
+api = ""
 bot = Bot(token = api)
 dp = Dispatcher(bot, storage = MemoryStorage())
 kb = ReplyKeyboardMarkup()
